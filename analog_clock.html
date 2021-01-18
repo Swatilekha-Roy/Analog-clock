@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<!-- Required meta tags -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Content Description on Search Engine-->
+		<meta name="Description" content="Simple Analog Clock">
+
+		<!-- Page Title -->
+		<title>
+			Analog Clock
+		</title>
+
+		<!-- Font -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.png">
+
+		<!-- CSS Sytlesheet -->
+		<link rel="stylesheet" type="text/css" href="css/analog.css">
+	</head>
+
+	<body>
+		<!-- Clock -->
+		<div class="clock">
+			<!-- Hour hand -->
+			<div class="hour">
+				<div class="hr" id="hr">					
+				</div>
+			</div>
+			<!-- Minute hand -->
+			<div class="min">
+				<div class="mn" id="mn">					
+				</div>
+			</div>
+			<!-- Second hand -->
+			<div class="sec">
+				<div class="sc" id="sc">					
+				</div>
+			</div>
+		</div>
+		<!-- Full Date and Time which is displayed on hovering -->
+		<div id="full-date" class="hide">
+			
+		</div>
+		<br>
+
+		<!-- Stopwatch -->
+		<div class="stopwatch">
+			<!-- Timer Watch -->
+			<div class="circle">
+				<span class="time" id="display">
+					00:00:00
+				</span>
+			</div>
+			<!-- Button Controls -->
+			<div class="controls">
+				<!-- Play, Pause buttons -->
+				<button class="play">
+					<img id="playButton" class="playButton" src="images/play-button.svg">
+					<img id="pauseButton" class="pauseButton" src="images/pause-button.svg">
+				</button>
+				<!-- Reset button -->
+				<button class="reset">
+					<img id="resetButton" class="resetButton" src="images/reset-button.svg">
+				</button>
+			</div>
+		</div>
+
+		<div class="toggleClass" onclick="toggleClass()">
+		</div>
+		<script type="text/javascript" src="js/analog.min.js"></script>
+	</body>
+
+</html>

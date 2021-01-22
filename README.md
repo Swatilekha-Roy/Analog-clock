@@ -6,4 +6,5 @@
 - Neomorphic/ Minimalistic designed interface.
 - Responsive design, therefore, can be viewed and used comfortably on all screen sizes.
 - Implemented using HTML 5, CSS 3 and simple JavaScript.
+- Find a demo of the clock and stopwatch at https://swatilekha-roy.github.io/Analog-clock
 - All improvements and addition of any features or suggestions are wholeheartedly welcome.
